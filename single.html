@@ -95,11 +95,21 @@
 									</div>
 								</header>
 								<span class="image featured"><img src="images/office.jpg" alt="" /></span>
-								<h2><a href="office_season4_comunities.html">Click here for interactive Network Graph</a></h2>
-								<p>This project is something I'm really passionate about. Initially, I wanted to find out which characters spoke the most in the show. Obviously, Michael would be the top speaker, but who would be second? This exploration evolved into identifying characters frequently mentioned together or sharing the most scenes. I employed Spacy for Natural Language Processing, mainly extracting character names from each sentence in the script and tallying how often each character's name appeared within a 5-sentence window. Using Selenium, I scraped season 4 scripts from a website and saved them as a text file. Subsequently, I merged all the scripts into one comprehensive season 4 script. With NetworkX for network analysis, I delved into unraveling the intricate interactions among the characters. Additionally, the Communities library assisted in grouping characters into communities based on their relatedness. </p>
+																<p>This project is something I'm really passionate about. Initially, I wanted to find out which characters spoke the most in the show. Obviously, Michael would be the top speaker, but who would be second? This exploration evolved into identifying characters frequently mentioned together or sharing the most scenes. I employed Spacy for Natural Language Processing, mainly extracting character names from each sentence in the script and tallying how often each character's name appeared within a 5-sentence window. Using Selenium, I scraped season 4 scripts from a website and saved them as a text file. Subsequently, I merged all the scripts into one comprehensive season 4 script. With NetworkX for network analysis, I delved into unraveling the intricate interactions among the characters. Additionally, the Communities library assisted in grouping characters into communities based on their relatedness. </p>
 								<div class="image-container">
 								
-							
+									<iframe src="office_season4_comunities.html" width="100%" height="800px"></iframe>
+									<p>In this provided data, a network graph is represented using the Pyvis library in Python. The graph depicts a social network where nodes represent individuals, and edges (connections between nodes) indicate relationships or interactions. The nodes are labeled with names such as 'Jan,' 'Michael,' 'Jim,' and so on, while the edges convey the connections between them.
+
+									</p>
+									
+<p>The reason for using a Pyvis network graph is likely to visually analyze and interpret the relationships and centralities within the social network. Pyvis provides an interactive and visually appealing way to explore and understand network structures, making it easier to identify key individuals (nodes with higher degrees) and the overall connectivity patterns within the network.
+
+</p>
+									</p>
+									<img src="images/pyvis.png" alt="ggg">
+									<p>The numbers associated with each individual in the graph represent their degree centrality, a measure of how well-connected or central a node is within the network. Specifically, the degree of a node is the number of edges connected to it. In this case, the numbers next to each person's name indicate the degree centrality of that individual within the social network.
+<p></p>
 									<img src="images/dc.png" alt="ggg">
 									<p> Degree centrality in this project would quantify the number of interactions or connections each character has with others in the network. Characters with high degree centrality would be those engaged in numerous interactions, suggesting a higher level of social activity or prominence within the storyline.</p>
 									<img src="images/bc.png" alt="Betweenness Centrality" /></span> 
